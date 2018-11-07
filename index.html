@@ -24,6 +24,14 @@
 			},
 			fly: function() {
 				alert("Fly");
+			},
+			switchCar: function(isOn) {
+				console.log("Turn car " + isOn);
+				if(isOn == true) {
+					this.isTurnedOn=true;
+				} else {
+					this.isTurnedOn=false;
+				}
 			}
 		};
 		console.log("Hello there friends!!!!");
