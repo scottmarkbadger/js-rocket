@@ -5,10 +5,10 @@ body{
 .cool{
 	width: 100px;
 	height: 100px;
-	background-color: green;
+	background-color: red;
 	transition: background-color 1s;
 }
 
 .cool.red{
-	background-color: red;
+	background-color: green;
 }
