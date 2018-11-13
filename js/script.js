@@ -1,4 +1,4 @@
-var doCoolStuff = function () {
+var doCoolStuff = function() {
 	document.getElementbyID('cool').className = 'cool red';
 }
 
