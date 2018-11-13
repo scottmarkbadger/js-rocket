@@ -1,3 +1,11 @@
+var doCoolStuff = function () {
+	document.getElementbyID("cool").className = "cool red";
+}
+
+var sayMyName = function(name) {
+	alert("My name is " + name);
+}
+
 var car = {
 	make:"Subaru",
 	model:"Legacy",
