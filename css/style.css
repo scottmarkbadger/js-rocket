@@ -3,7 +3,7 @@ body{
 }
 
 .cool{
-	display: block;
+	display: none;
 	width: 100px;
 	height: 100px;
 	background-color: green;
