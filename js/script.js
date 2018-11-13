@@ -1,5 +1,15 @@
+// Functions
 var doCoolStuff = function() {
+	// Getting current Class Name
+	var currentClassName = document.getElementById('cool').className;
+	// If Then
+	if(currentClassName == 'cool') {
+		// Changing Class Name
 	document.getElementById('cool').className = 'cool red';
+	} else {
+		// Changing Class Name
+		document.getElementById('cool').className = 'cool';
+	}
 }
 
 var sayMyName = function(name) {
