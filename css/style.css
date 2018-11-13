@@ -9,6 +9,6 @@ body{
 	transition: background-color 1s;
 }
 
-.cool2{
+.cool.red{
 	background-color: red;
 }
