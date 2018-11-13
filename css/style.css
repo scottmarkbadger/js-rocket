@@ -2,13 +2,13 @@ body{
 	background-color: grey;
 }
 
-.cool{
+.cool.green{
 	width: 100px;
 	height: 100px;
-	background-color: red;
+	background-color: green;
 	transition: background-color 1s;
 }
 
 .cool.red{
-	background-color: green;
+	background-color: red;
 }
