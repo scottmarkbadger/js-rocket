@@ -5,7 +5,7 @@ var doCoolStuff = function() {
 	// If Then
 	if(currentClassName == 'cool') {
 		// Changing Class Name
-	document.getElementById('cool').className = 'cool red';
+		document.getElementById('cool').className = 'cool red';
 	} else {
 		// Changing Class Name
 		document.getElementById('cool').className = 'cool';
